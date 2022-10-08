@@ -1,0 +1,28 @@
+
+State Machine - |main|state
+Name state.IV_RESET state.UART_TRANSMIT state.ADC state.IV_HOLD state.SELECT_PIXEL state.ACCUMULATION state.START_READ state.IDLE state.RESET_SENSOR 
+state.IDLE 0 0 0 0 0 0 0 0 0 
+state.START_READ 0 0 0 0 0 0 1 1 0 
+state.ACCUMULATION 0 0 0 0 0 1 0 1 0 
+state.SELECT_PIXEL 0 0 0 0 1 0 0 1 0 
+state.IV_HOLD 0 0 0 1 0 0 0 1 0 
+state.ADC 0 0 1 0 0 0 0 1 0 
+state.UART_TRANSMIT 0 1 0 0 0 0 0 1 0 
+state.IV_RESET 1 0 0 0 0 0 0 1 0 
+state.RESET_SENSOR 0 0 0 0 0 0 0 1 1 
+
+State Machine - |main|UART_Tx:UART_Tx|state
+Name state.DEC_BIT_CNT state.SET_DATA_BIT state.START_BIT state.IDLE state.STOP_TRANSMIT 
+state.IDLE 0 0 0 0 0 
+state.START_BIT 0 0 1 1 0 
+state.SET_DATA_BIT 0 1 0 1 0 
+state.DEC_BIT_CNT 1 0 0 1 0 
+state.STOP_TRANSMIT 0 0 0 1 1 
+
+State Machine - |main|ADC128S022_DRIVER:ADC1|state
+Name state.REVERSE_CLK state.START_GENERATE state.START state.00000000 state.STOP 
+state.00000000 0 0 0 0 0 
+state.START 0 0 1 1 0 
+state.START_GENERATE 0 1 0 1 0 
+state.REVERSE_CLK 1 0 0 1 0 
+state.STOP 0 0 0 1 1 

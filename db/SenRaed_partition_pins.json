@@ -1,0 +1,137 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "iv_hold",
+					"strict" : false
+				},
+				{
+					"name" : "iv_reset",
+					"strict" : false
+				},
+				{
+					"name" : "gate[0]",
+					"strict" : false
+				},
+				{
+					"name" : "gate[1]",
+					"strict" : false
+				},
+				{
+					"name" : "gate[2]",
+					"strict" : false
+				},
+				{
+					"name" : "gate[3]",
+					"strict" : false
+				},
+				{
+					"name" : "gate[4]",
+					"strict" : false
+				},
+				{
+					"name" : "gate[5]",
+					"strict" : false
+				},
+				{
+					"name" : "gate[6]",
+					"strict" : false
+				},
+				{
+					"name" : "gate[7]",
+					"strict" : false
+				},
+				{
+					"name" : "gate[8]",
+					"strict" : false
+				},
+				{
+					"name" : "gate[9]",
+					"strict" : false
+				},
+				{
+					"name" : "gate[10]",
+					"strict" : false
+				},
+				{
+					"name" : "M[0]",
+					"strict" : false
+				},
+				{
+					"name" : "M[1]",
+					"strict" : false
+				},
+				{
+					"name" : "M[2]",
+					"strict" : false
+				},
+				{
+					"name" : "M[3]",
+					"strict" : false
+				},
+				{
+					"name" : "M[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Ma[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Ma[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Ma[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Ma[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Ma[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ADC_SCLK",
+					"strict" : false
+				},
+				{
+					"name" : "ADC_CS_N",
+					"strict" : false
+				},
+				{
+					"name" : "Tx_out",
+					"strict" : false
+				},
+				{
+					"name" : "LED[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[1]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "start_read",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "ADC_SDAT",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
